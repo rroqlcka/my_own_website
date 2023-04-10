@@ -12,3 +12,5 @@ You could Add some contents if you want.
 
 This project's design has been changed since I got feedback from professor.
 
+## Languages
+Please use only HTML and CSS or i'll get F
