@@ -6,4 +6,4 @@ For Yoon's website project
 
 You could ADD some contents if you want.
 
-[The plan of how i'll make](https://github.com/rroqlcka/my_own_website/blob/main/Surf_website.pptx)
+[The plan of how i'll make](https://www.figma.com/file/IC2tmUNT8QqFYviCjDoMsk/Surf_web?t=m63JAEaRHinFctNw-1)
