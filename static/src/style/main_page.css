@@ -1,0 +1,119 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizespeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block
+}
+
+
+/*css reset part which will make web design more easier GREAT*/
+
+
+.pageHeader{
+    width: 1920px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pageHeaderLongboard, .pageHeaderMiniboard, .pageHeaderFishboard,.pageHeaderShortboard{
+    height: 70px;
+    width: 455px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageIcon{
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageIcon img{
+    width: 70px;
+    height: 70px;
+}
+
+.mainPage_first{
+    width: 1920px;
+    height: 1350px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainPage_first div{
+    width: 960px;
+    height: 1350px;
+}
+
+#mainPage_first_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainPage_first_right img{
+    height: 1300px;
+    padding-top: 120px;
+    filter: drop-shadow(0px 0px 50px dimgrey);
+}
+
+#mainPage_first_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#mainPage_first_left_above_letter{
+    text-align: right;
+}
+
+#mainPage_first_left img{
+    width: 70px;
+    height: 70px;
+}
+
+.mainPage_arrow{
+
+}
