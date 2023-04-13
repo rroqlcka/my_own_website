@@ -187,12 +187,12 @@ a {
 }
 
 /* unvisited link */
-.types_navigate a {
+a {
   color: black;
 }
 
 /* visited link */
-.types_navigate a:visited {
+a:visited {
   color: black;
 }
 
@@ -215,7 +215,7 @@ a {
     width: 780px;
     height: 97px;
     left: 235px;
-    font-size: 18px;
+    font-size: 1px;
     line-height: 300%;
     /*padding-right: 1000px;*/
 }
@@ -225,7 +225,7 @@ a {
     width: 216px;
     height: 135px;
     line-height: 200.02%;
-    font-size: 18px;
+    font-size: 1px;
     left: 1324px;
 }
 
