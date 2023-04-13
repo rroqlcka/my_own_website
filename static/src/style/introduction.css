@@ -1,0 +1,79 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: #2E302E;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizespeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins',sans-serif;
+    background-color: #F5F7F6;
+    color: #2E302E;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block
+}
+
+/*css setup*/
+
+.Board_introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2000px;
+}
+
+.life_quote p:first-of-type{
+    line-height: 100px;
+    letter-spacing: 0.3em;
+    font-size: 25px;
+}
+
+.life_quote p:nth-of-type(2){
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.Board_introduction img{
+    height: 500px;
+}
+
+.explain_letter_set{
+    letter-spacing: 0.2em;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.boardpic_letter_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

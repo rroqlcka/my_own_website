@@ -37,6 +37,10 @@ a {
     display: block
 }
 
+span {
+    font-weight: 600;
+}
+
 
 /*css reset part which will make web design more easier GREAT*/
 
@@ -214,7 +218,7 @@ a:visited {
     position: absolute;
     width: 780px;
     height: 97px;
-    left: 235px;
+    left: 300px;
     font-size: 18px;
     line-height: 300%;
     /*padding-right: 1000px;*/
@@ -226,7 +230,7 @@ a:visited {
     height: 135px;
     line-height: 200.02%;
     font-size: 18px;
-    left: 1324px;
+    left: 1380px;
 }
 
 
