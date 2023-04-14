@@ -30,12 +30,19 @@
     height: 500px;
 }
 
+.Board_keywords{
+    text-align: center;
+    background-color: #F5F7F6;
+    margin-top: 100px;
+    line-height: 150%;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+}
+
 .explain_letter_set{
     letter-spacing: 0.2em;
-    line-height: 150%;
     font-size: 18px;
-    margin-top: 100px;
-    background-color: #F5F7F6;
+    line-height: 200%;
 }
 
 .boardpic_letter_wrap{
@@ -52,7 +59,6 @@
 }
 
 .longboard_introduction_line{
-    position: absolute;
     width: 1280px;
     height: 0px;
     top: 1360px;
@@ -74,6 +80,8 @@
     position: relative;
     display: flex;
     justify-content: center;
+    width: 1920px;
+    height: 1080px;
 }
 
 .lyrics_line{
@@ -112,5 +120,55 @@
 .Board_introduction_NoseTail{
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.horizon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row_reverse{
+    flex-direction: row-reverse;
+}
+
+.horizon * {
+    position: absolute;
+    border-color: red;
 
 }
+
+
+#Nose_pic_location{
+    left: 960.5px;
+    top: 200.5px;
+
+}
+
+#Tail_pic_location{
+    right: 960.5px;
+    top: 500.5px;
+}
+
+
+.horizon:first-of-type{
+    top: 400px;
+}
+
+.Nose_explain_location{
+    top: 250px;
+    text-align: right;
+    left: 300px;
+}
+
+.Tail_explain_location{
+    top: 550px;
+    text-align: left;
+    right: 300px;
+}
+
+.Board_introduction_NoseTail div:first-of-type{
+    width: 800px;
+}
+
