@@ -1,0 +1,64 @@
+.pageHeader{
+    width: 1920px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pageHeaderLongboard, .pageHeaderMiniboard, .pageHeaderFishboard,.pageHeaderShortboard{
+    height: 70px;
+    width: 455px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageIcon{
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageIcon img{
+    width: 70px;
+    height: 70px;
+}
+
+.footer{
+    width: 1920px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2em;
+    align-items: center;
+}
+
+.footer *{
+    margin: auto;
+}
+
+.footer div:first-of-type{
+    /*padding-left: 235px;*/
+    position: absolute;
+    width: 780px;
+    height: 97px;
+    left: 300px;
+    font-size: 18px;
+    line-height: 300%;
+    /*padding-right: 1000px;*/
+}
+
+.footer div:nth-of-type(2){
+    position: absolute;
+    width: 216px;
+    height: 135px;
+    line-height: 200.02%;
+    font-size: 18px;
+    left: 1380px;
+}

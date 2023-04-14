@@ -1,53 +1,17 @@
-*,
-::after,
-::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-img,
-picture {
-    max-width: 100%;
-    display: block;
-}
-
-button,
-input,
-select,
-textarea {
-    font: inherit;
-    color: #2E302E;
-}
-
-body {
-    min-height: 100vh;
-    text-rendering: optimizespeed;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Poppins',sans-serif;
-    background-color: #F5F7F6;
-    color: #2E302E;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    display: block
-}
-
-/*css setup*/
+/*Actual lines*/
 
 .Board_introduction{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 2000px;
+    position: relative;
+}
+
+.LongBoard{
+    z-index: -2;
+    color: #2E302E;
 }
 
 .life_quote p:first-of-type{
@@ -70,10 +34,83 @@ a {
     letter-spacing: 0.2em;
     line-height: 150%;
     font-size: 18px;
+    margin-top: 100px;
+    background-color: #F5F7F6;
 }
 
 .boardpic_letter_wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.middle_line{
+    position: absolute;
+    z-index: -1;
+    border: 0.5px solid;
+    transform: rotate(90deg);
+}
+
+.longboard_introduction_line{
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    top: 1360px;
+}
+
+.longboard_border_color{
+    border-color: #49705C;
+}
+
+.pageShape{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    top: 700px;
+}
+
+.Board_introduction_lyrics{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.lyrics_line{
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    top: 530px;
+    left: 200px;
+}
+
+.line_height{
+    width: 1080px;
+    height: 0px;
+    top: 540px;
+}
+
+.lyrics_img{
+    height: 1000px;
+}
+
+.Ballet{
+    position: absolute;
+    transform: rotate(3deg);
+    left: 665px;
+}
+
+.shall_we_start{
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    top: 950px;
+    left: 890px;
+}
+
+.Board_introduction_NoseTail{
+    display: flex;
+    flex-direction: column;
+
 }
