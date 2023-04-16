@@ -42,9 +42,7 @@
 }
 
 .explain_letter_set{
-    letter-spacing: 0.2em;
-    font-size: 18px;
-    line-height: 200%;
+
 }
 
 .boardpic_letter_wrap{
@@ -110,6 +108,12 @@
     top: 540px;
 }
 
+.line_height_ending{
+    width: 600px;
+    height: 0px;
+    top: 300px;
+}
+
 .lyrics_img{
     height: 1000px;
 }
@@ -117,9 +121,7 @@
 .Ballet{
     position: absolute;
     transform: rotate(3deg);
-    left: 665px;
 }
-
 .shall_we_start{
     position: absolute;
     transform: rotate(90deg);
@@ -170,15 +172,25 @@
 }
 
 .left_explain_location{
+    width: 550px;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    line-height: 200%;
+    position: absolute;
     top: 250px;
     text-align: right;
-    left: 300px;
+    left: 200px;
 }
 
 .right_explain_location{
+    width: 550px;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    line-height: 200%;
+    position: absolute;
     top: 550px;
     text-align: left;
-    right: 300px;
+    right: 200px;
 }
 
 .explain_line{
@@ -300,4 +312,23 @@
 
 .Last_info{
     display: block;
+}
+
+
+/*Ending picture and icon*/
+
+.Ending_pic{
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ending_pic img:first-of-type{
+    left: 812px;
+    height: 500px;
+    top: -170px;
+}
+
+.Ending_pic > .pageIcon{
+    position: absolute;
+    top: 900px;
 }
