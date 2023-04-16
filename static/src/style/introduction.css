@@ -1,17 +1,18 @@
 /*Actual lines*/
-
 .Board_introduction{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 2000px;
     position: relative;
+    width: 1920px;
+    height: 1080px;
 }
 
 .LongBoard{
     z-index: -2;
     color: #2E302E;
+    align-items: center;
+    justify-content: space-around;
+    height: 2000px;
+    flex-direction: column;
 }
 
 .life_quote p:first-of-type{
@@ -26,9 +27,6 @@
     text-align: center;
 }
 
-.Board_introduction img{
-    height: 500px;
-}
 
 .Board_keywords{
     text-align: center;
@@ -90,12 +88,8 @@
     top: 700px;
 }
 
-.Board_introduction_lyrics{
-    position: relative;
-    display: flex;
+.Lyrics{
     justify-content: center;
-    width: 1920px;
-    height: 1080px;
 }
 
 .lyrics_line{
@@ -137,12 +131,8 @@
 /*Board introduction about nose and tail of LongBoard*/
 
 
-.Board_introduction_NoseTail{
-    display: flex;
+.NoseTail{
     flex-direction: column;
-    position: relative;
-    width: 1920px;
-    height: 900px;
 }
 
 .horizon{
@@ -175,13 +165,13 @@
     top: 400px;
 }
 
-.Nose_explain_location{
+.left_explain_location{
     top: 250px;
     text-align: right;
     left: 300px;
 }
 
-.Tail_explain_location{
+.right_explain_location{
     top: 550px;
     text-align: left;
     right: 300px;
@@ -217,10 +207,8 @@
 /*Measure explanation about Longboard*/
 
 
-.Board_length_measure{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+.Measure{
+    display: block;
 }
 
 .surfboard_length_measure_pictures{
@@ -259,4 +247,24 @@
     font-size: 18px;
     left: 1330px;
     top: 282px;
+}
+
+.Board_length_measure_explain_line{
+    position: absolute;
+}
+
+.explain_letter_location_set{
+
+}
+
+
+/*Question guy comes up*/
+
+.Question{
+    flex-direction: column;
+    align-items: center;
+}
+
+.Question img{
+    height: 300px;
 }
