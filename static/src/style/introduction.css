@@ -1,9 +1,6 @@
 /*Actual lines*/
 
-.LongBoard{
-    background-color: #F5F7F6;
-    border-color: #49705C;
-}
+
 
 .Board_introduction{
     display: flex;
@@ -12,7 +9,8 @@
     height: 1080px;
 }
 
-.LongBoard_start{
+
+.start{
     z-index: -2;
     align-items: center;
     justify-content: space-around;
@@ -63,15 +61,9 @@
     transform: rotate(90deg);
 }
 
-.longboard_introduction_line{
-    width: 1280px;
-    height: 0px;
-    top: 1360px;
-}
 
-.longboard_border_color{
-    border: 0.5px solid #49705C;
-}
+
+
 
 .border_line_size{
     position: absolute;
@@ -114,10 +106,6 @@
     top: 300px;
 }
 
-.lyrics_img{
-    height: 1000px;
-}
-
 .Ballet{
     position: absolute;
     transform: rotate(3deg);
@@ -134,7 +122,7 @@
 
 
 
-/*Board introduction about nose and tail of LongBoard*/
+/*Board introduction about nose and tail*/
 
 
 .NoseTail{
@@ -220,7 +208,7 @@
 
 
 
-/*Measure explanation about Longboard*/
+/*Measure explanation */
 
 
 .Measure{
@@ -252,18 +240,7 @@
     position: absolute;
 }
 
-#longboard_measure_line{
-    left: 1330px;
-    top: 300px;
-}
 
-#longboard_measure_foot{
-    position: absolute;
-    color: #B7C5BD;
-    font-size: 18px;
-    left: 1330px;
-    top: 282px;
-}
 
 .Board_length_measure_explain_line{
     position: absolute;

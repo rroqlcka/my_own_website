@@ -1,0 +1,34 @@
+.LongBoard{
+    background-color: #F5F7F6;
+    border-color: #49705C;
+}
+
+
+.longboard_introduction_line{
+    width: 1280px;
+    height: 0px;
+    top: 1360px;
+}
+
+.longboard_border_color{
+    border: 0.5px solid #49705C;
+}
+
+#long_lyrics_pic{
+    height: 500px;
+    left: 665px;
+}
+
+
+#longboard_measure_line{
+    left: 1330px;
+    top: 300px;
+}
+
+#longboard_measure_foot{
+    position: absolute;
+    color: #B7C5BD;
+    font-size: 18px;
+    left: 1330px;
+    top: 282px;
+}
