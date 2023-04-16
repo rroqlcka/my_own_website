@@ -51,6 +51,11 @@
     align-items: center;
 }
 
+.middle_line_justify{
+    display: flex;
+    justify-content: center;
+}
+
 .middle_line{
     position: absolute;
     z-index: -1;
@@ -66,6 +71,15 @@
 
 .longboard_border_color{
     border-color: #49705C;
+}
+
+.border_line_size{
+    position: absolute;
+    height: 900px;
+    width: 0px;
+    left: 959.5px;
+    z-index: -1;
+    border: 0.5px solid;
 }
 
 .pageShape{
@@ -117,10 +131,18 @@
     left: 890px;
 }
 
+
+
+
+/*Board introduction about nose and tail of LongBoard*/
+
+
 .Board_introduction_NoseTail{
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 1920px;
+    height: 900px;
 }
 
 .horizon{
@@ -135,15 +157,12 @@
 
 .horizon * {
     position: absolute;
-    border-color: red;
-
 }
 
 
 #Nose_pic_location{
     left: 960.5px;
     top: 200.5px;
-
 }
 
 #Tail_pic_location{
@@ -168,7 +187,76 @@
     right: 300px;
 }
 
-.Board_introduction_NoseTail div:first-of-type{
-    width: 800px;
+.explain_line{
+    position: absolute;
+    width: 380px;
+    height: 0px;
+    border: 0.5px solid #49705C;
 }
 
+.explain_line_square{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #49705C;
+    transform: rotate(45deg);
+    top: -3.5px;
+}
+
+.Right{
+    left: 580px;
+}
+
+.Left{
+    transform: scaleX(-1);
+    right: 580px;
+}
+
+
+
+/*Measure explanation about Longboard*/
+
+
+.Board_length_measure{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+.surfboard_length_measure_pictures{
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.surfboard_length_measure_pictures img:first-of-type{
+    height: 230px;
+}
+
+.surfboard_length_measure_pictures img:nth-of-type(2){
+    height: 300px;
+    padding-left: 100px;
+}
+
+.surfboard_length_measure_line{
+    width: 250px;
+    height: 0px;
+    border: 0.5px solid #B7C5BD;
+    position: absolute;
+}
+
+#longboard_measure_line{
+    left: 1330px;
+    top: 300px;
+}
+
+#longboard_measure_foot{
+    position: absolute;
+    color: #B7C5BD;
+    font-size: 18px;
+    left: 1330px;
+    top: 282px;
+}
