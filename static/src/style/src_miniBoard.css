@@ -1,0 +1,62 @@
+.Mini{
+    background-color: #F7F7F5;
+    border-color: #848611;
+}
+
+.mini_introduction_line{
+    width: 1280px;
+    height: 0px;
+    top: 1360px;
+}
+
+.mini_border_color{
+    border: 0.5px solid #848611;
+}
+
+#mini_lyrics_pic{
+    position: absolute;
+    border-radius: 25%;
+    filter: drop-shadow(-10px 10px 15px #BDBDBD);
+    left: 714.18px;
+    height: 368px;
+    top: 300px;
+}
+
+.explain_line_circle{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #848611;
+    border-radius: 50%;
+    top: -3.5px;
+}
+
+#mini_Nose_pic_location, #mini_Tail_pic_location{
+    position: absolute;
+    left: 0px;
+    height: 180px;
+    filter: drop-shadow(4px 4px 5px #BDBDBD);
+}
+
+
+#mini_Nose_pic_location{
+    top:200px;
+}
+
+#mini_Tail_pic_location{
+    top: 700px;
+}
+
+#mini_measure_line{
+    left: 1330px;
+    top: 300px;
+    border-color: #C3C5B7;
+}
+
+#mini_measure_foot{
+    position: absolute;
+    color: #C3C5B7;
+    font-size: 18px;
+    left: 1330px;
+    top: 282px;
+}

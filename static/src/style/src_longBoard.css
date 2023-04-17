@@ -16,13 +16,19 @@
 
 #long_lyrics_pic{
     height: 500px;
-    left: 665px;
+    left: 787px;
+}
+
+.Ballet{
+    position: absolute;
+    /*transform: rotate(3deg);*/
 }
 
 
 #longboard_measure_line{
     left: 1330px;
     top: 300px;
+    border-color: #B7C5BD;
 }
 
 #longboard_measure_foot{
@@ -31,4 +37,23 @@
     font-size: 18px;
     left: 1330px;
     top: 282px;
+}
+
+.explain_line_square{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #49705C;
+    transform: rotate(45deg);
+    top: -3.5px;
+}
+
+#long_Nose_pic_location{
+    left: 960.5px;
+    top: 200.5px;
+}
+
+#long_Tail_pic_location{
+    right: 960.5px;
+    top: 500.5px;
 }

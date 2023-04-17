@@ -49,6 +49,10 @@
     align-items: center;
 }
 
+.boardpic_letter_wrap img{
+    filter: drop-shadow(0px 4px 5px #BDBDBD);
+}
+
 .middle_line_justify{
     display: flex;
     justify-content: center;
@@ -90,8 +94,6 @@
     position: absolute;
     font-size: 20px;
     letter-spacing: 0.2em;
-    top: 530px;
-    left: 200px;
 }
 
 .line_height{
@@ -104,11 +106,6 @@
     width: 600px;
     height: 0px;
     top: 300px;
-}
-
-.Ballet{
-    position: absolute;
-    transform: rotate(3deg);
 }
 .shall_we_start{
     position: absolute;
@@ -144,17 +141,6 @@
 }
 
 
-#Nose_pic_location{
-    left: 960.5px;
-    top: 200.5px;
-}
-
-#Tail_pic_location{
-    right: 960.5px;
-    top: 500.5px;
-}
-
-
 .horizon:first-of-type{
     top: 400px;
 }
@@ -165,7 +151,6 @@
     font-size: 18px;
     line-height: 200%;
     position: absolute;
-    top: 250px;
     text-align: right;
     left: 200px;
 }
@@ -176,7 +161,6 @@
     font-size: 18px;
     line-height: 200%;
     position: absolute;
-    top: 550px;
     text-align: left;
     right: 200px;
 }
@@ -188,20 +172,11 @@
     /*border: 0.5px solid;*/
 }
 
-.explain_line_square{
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    background-color: #49705C;
-    transform: rotate(45deg);
-    top: -3.5px;
-}
-
-.Right{
+.Left{
     left: 580px;
 }
 
-.Left{
+.Right{
     transform: scaleX(-1);
     right: 580px;
 }
@@ -229,14 +204,13 @@
 }
 
 .surfboard_length_measure_pictures img:nth-of-type(2){
-    height: 300px;
     padding-left: 100px;
 }
 
 .surfboard_length_measure_line{
     width: 250px;
     height: 0px;
-    border: 0.5px solid #B7C5BD;
+    border: 0.5px solid;
     position: absolute;
 }
 
@@ -300,9 +274,7 @@
 }
 
 .Ending_pic img:first-of-type{
-    left: 812px;
-    height: 500px;
-    top: -170px;
+    height: 250px;
 }
 
 .Ending_pic > .pageIcon{
