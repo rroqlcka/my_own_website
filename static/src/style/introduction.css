@@ -151,6 +151,10 @@
     top: 400px;
 }
 
+.horizon span{
+    position: static;
+}
+
 .left_explain_location{
     width: 550px;
     letter-spacing: 0.2em;
@@ -244,7 +248,7 @@
 
 .Question div:nth-of-type(4){
     letter-spacing: 0.2em;
-    font-size: 13px;
+    font-size: 18px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -260,7 +264,7 @@
     position: absolute;
     left: 1200px;
     top: 180px;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.2em;
 }
 
