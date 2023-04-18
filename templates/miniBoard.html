@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../static/src/style/setup.css">
     <link rel="stylesheet" href="../static/src/style/src_miniBoard.css">
     <link rel="stylesheet" href="../static/src/style/src_longBoard.css">
+    <link rel="stylesheet" href="../static/src/style/src_shortBoard.css">
     <style>
         body {background-color: #F7F7F5; color: #2E302E;}
         .footer {background-color: white}
@@ -16,16 +17,16 @@
 </head>
 <body>
     <div class="pageHeader">
-        <a href="" class="pageHeaderLongboard">롱보드</a>
-        <a href="" class="pageHeaderMiniboard" style="color: gray">미니 말</a>
-        <a href="" class="pageIcon"><img src="../static/src/img/Icon.png"></a>
-        <a href="" class="pageHeaderShortboard">숏보드</a>
-        <a href="" class="pageHeaderFishboard">피쉬보드</a>
+        <a href="longBoard.html" class="pageHeaderLongboard">롱보드</a>
+        <a href="miniBoard.html" class="pageHeaderMiniboard" style="color: gray">미니 말</a>
+        <a href="main.html" class="pageIcon"><img src="../static/src/img/Icon.png"></a>
+        <a href="shortBoard.html" class="pageHeaderShortboard">숏보드</a>
+        <a href="fishBoard.html" class="pageHeaderFishboard">피쉬보드</a>
     </div>
 
     <div class="Board_introduction start">
         <div class="pageShape" style="border-color: #848611; border-radius: 50%"></div>
-        <div class="middle_line mini_introduction_line mini_border_color"></div>
+        <div class="middle_line introduction_line mini_border_color"></div>
          <div class="life_quote">
             <p><span>미니 말</span>은 순간에 존재하며 자신을 믿는 균형이다.</p>
             <p>- 레어드 해밀턴 -</p>
@@ -57,11 +58,11 @@
             <div class="explain_line_circle"></div>
         </div>
         <div class="horizon">
-            <div class="right_explain_location" style="top: 255px">롱보드의 Nose는 넓고 둥급니다.<br>긴 시간 동안 안정적으로 서핑하는데 도움을 줍니다.</div>
+            <div class="right_explain_location" style="top: 255px">미니 말은 미니 말리부의 줄임말이며<br>주로 롱보드의 <span>작은 버전</span>이라고 합니다.</div>
             <img id="mini_Nose_pic_location" src="../static/src/img/mini_tail.png">
         </div>
         <div class="horizon row_reverse">
-            <div class="right_explain_location" style="top: 755px">반면, 롱보드의 Tail은 좁고 뾰족합니다.<br>보드를 조종하고 방향을 바꾸는데 중요한 역할을 합니다.</div>
+            <div class="right_explain_location" style="top: 755px">보드의 양 끝부분이 <span>둥근</span> 것이 특징이며<br>주로 Tail로 불리는 뒷 부분이 더 좁습니다.</div>
             <img id="mini_Tail_pic_location" class="" src="../static/src/img/mini_nose.png">
         </div>
     </div>
@@ -109,8 +110,12 @@
         <div class="Thats_Right" style="background-color: #F7F7F5">그렇습니다!</div>
         <div style="background-color: #F7F7F5">그럼 롱보드와 숏보드 그 <span>중간</span>이겠군요.</div>
         <div class="Question_line">다만, 초보자 뿐만아닌 몸이 불편하신 노년 서퍼들도 주로 사용합니다.</div>
-        <div class="what_is Shortboard" style=""></div>
-<!--        EDITTTT after make Shortboard css -->
+
+        <div class="explain_navigation short_border_color Right" style="left: 960px;top: 800px">
+            <div class="explain_line_triangle" style="left: -15px;z-index: -1;"></div>
+        </div>
+        <div class="what_is Short" style="top: 772px"><a href="shortBoard.html">숏보드란?</a></div>
+
     </div>
 
     <div class="Board_introduction Last_info">

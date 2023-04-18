@@ -1,0 +1,42 @@
+.Fish{
+    background-color: #F5F5F7;
+    border-color: #112386;
+}
+
+
+.fish_border_color{
+    border: 0.5px solid #112386;
+}
+
+#fish_lyrics_pic{
+    position: absolute;
+    height: 500px;
+    top: 250px;
+}
+
+#fish_board_nose_pic{
+    filter: drop-shadow(-4px 4px 5px #BDBDBD);
+    position: absolute;
+    height: 340px;
+    top: 260px;
+}
+
+.fish_nosetail_wrap{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #112386;
+    z-index: -1;
+    transform: rotate(45deg);
+    top: 250px;
+}
+
+.explain_line_square_rotate{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #112386;
+    transform: rotate(45deg);
+    top: -3.5px;
+
+}

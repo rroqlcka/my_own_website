@@ -9,6 +9,12 @@
     height: 1080px;
 }
 
+.introduction_line{
+    width: 1280px;
+    height: 0px;
+    top: 1360px;
+}
+
 
 .start{
     z-index: -2;
