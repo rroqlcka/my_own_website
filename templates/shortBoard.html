@@ -27,7 +27,8 @@
     </div>
 
     <div class="Board_introduction start">
-        <div class="pageShape" style="border-color: #861111; border-radius: 50%"></div>
+        <div class="shortBoard_triangle" style="top: 705px"></div>
+        <div class="shortBoard_triangle_white" style="top: 706px"></div>
         <div class="middle_line short_introduction_line short_border_color"></div>
          <div class="life_quote">
              <p>나는 <span>숏보드</span>를 타며 날 수 있다.</p>
@@ -49,25 +50,48 @@
         <div class="shall_we_start">그럼 시작해 볼까요?</div>
     </div>
 
-    <div class="Board_introduction NoseTail">
-        <div class="middle_line_justify">
-            <div class="middle_line short_border_color line_height" style="width: 1080px"></div>
+    <div class="Board_introduction NoseTail" style="align-items: center">
+        <div class="middle_line short_border_color line_height"></div>
+        <div class="shortBoard_triangle_nosetail" style="top: -300px"></div>
+        <div class="shortBoard_triangle_nosetail_white" style="top: -292px"></div>
+        <img id="shortboard_nose_pic" src="../static/src/img/shortboard_nose.png">
+
+        <div class="explain_line short_border_color Left" style="top: 870px">
+            <div class="Short explain_line_triangle"></div>
         </div>
-        <div class="explain_line short_border_color Right" style="top: 290px">
-            <div class="explain_line_triangle"></div>
-        </div>
-        <div class="explain_line short_border_color Right" style="top: 790px">
-            <div class="explain_line_triangle"></div>
-        </div>
-        <div class="horizon">
-            <div class="right_explain_location" style="top: 255px">롱보드의 Nose는 넓고 둥급니다.<br>긴 시간 동안 안정적으로 서핑하는데 도움을 줍니다.</div>
-            <img id="mini_Nose_pic_location" src="../static/src/img/mini_tail.png">
-        </div>
-        <div class="horizon row_reverse">
-            <div class="right_explain_location" style="top: 755px">반면, 롱보드의 Tail은 좁고 뾰족합니다.<br>보드를 조종하고 방향을 바꾸는데 중요한 역할을 합니다.</div>
-            <img id="mini_Tail_pic_location" class="" src="../static/src/img/mini_nose.png">
-        </div>
+        <div class="left_explain_location" style="top: 835px">롱보드에 비해 가볍고 작지만<br>숏보드와 같이 역동적인 터닝 기술은 어렵습니다.</div>
     </div>
+    <div class="Board_introduction NoseTail" style="align-items: center">
+        <div class="middle_line short_border_color line_height"></div>
+        <div class="shortBoard_triangle_nosetail" style="top: 300px; transform: rotate(180deg)"></div>
+        <div class="shortBoard_triangle_nosetail_white" style="top: 302px; transform: rotate(180deg)"></div>
+        <img id="shortboard_tail_pic" style="top: 302px" src="../static/src/img/shortboard_tail.png">
+
+        <div class="explain_line short_border_color Left" style="top: 870px">
+            <div class="Short explain_line_triangle"></div>
+        </div>
+        <div class="left_explain_location" style="top: 835px">롱보드에 비해 가볍고 작지만<br>숏보드와 같이 역동적인 터닝 기술은 어렵습니다.</div>
+    </div>
+
+    <div class="Board_introduction Measure">
+        <div class="middle_line_justify">
+            <div class="middle_line short_border_color line_height"></div>
+        </div>
+        <div class="surfboard_length_measure_pictures" style="left: 300px">
+            <img src="../static/src/img/guy_with_yellow_surfboard.png">
+            <img src="../static/src/img/short_board.png" style="height: 200px">
+        </div>
+        <div class="surfboard_length_measure_line" id="short_measure_line"></div>
+        <div class="surfboard_length_measure_foot" id="short_measure_foot">6피트</div>
+
+        <div class="explain_line short_border_color Right" style="top: 430px">
+            <div class=" explain_line_triangle"></div>
+        </div>
+        <div class="right_explain_location" style="top: 395px" >숏보드는 대략 <span>6피트</span> 정도이며 길이와 넓이, 두께 모두 서퍼의 기호에 따라 변합니다.</div>
+
+
+    </div>
+
 
 </body>
 </html>
