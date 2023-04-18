@@ -32,15 +32,14 @@ ul {
     list-style: none;
 }
 
-a {
+.pageHeader a {
     text-decoration: none;
-    display: block;
+    /*display: block;*/
     color: black;
-
 }
 
 /* visited link */
-a:visited {
+.pageHeader a:visited {
   color: black;
 }
 

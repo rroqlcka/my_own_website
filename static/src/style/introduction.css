@@ -274,10 +274,24 @@
 }
 
 .Ending_pic img:first-of-type{
-    height: 250px;
+    position: absolute;
 }
 
 .Ending_pic > .pageIcon{
     position: absolute;
     top: 900px;
+}
+
+
+.explain_navigation{
+    width: 250px;
+    height: 0px;
+    position: absolute;
+}
+
+.what_is{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    left: 1110px;
 }

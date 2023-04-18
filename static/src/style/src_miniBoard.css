@@ -60,3 +60,28 @@
     left: 1330px;
     top: 282px;
 }
+
+#explain_more_info_circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #848611;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background-color: #F7F7F5;
+    z-index: 1;
+}
+
+#explain_more_info_circle img:first-of-type{
+    height: 500px;
+}
+
+#explain_more_info_circle img:nth-of-type(2){
+    height: 370px;
+}
+
+#explain_more_info_circle img{
+    filter: drop-shadow(0px 4px 3px #BDBDBD);
+}
+

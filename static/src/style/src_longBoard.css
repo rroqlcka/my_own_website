@@ -1,6 +1,17 @@
 .LongBoard{
     background-color: #F5F7F6;
     border-color: #49705C;
+    color: #49705C;
+}
+
+.LongBoard a{
+    text-decoration: none;
+    display: block;
+    color: #49705C;
+}
+
+.LongBoard a:visited {
+  color: #49705C;
 }
 
 
@@ -57,3 +68,4 @@
     right: 960.5px;
     top: 500.5px;
 }
+
