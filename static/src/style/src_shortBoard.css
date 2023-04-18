@@ -1,0 +1,35 @@
+
+
+
+
+.short_border_color{
+    border: 0.5px solid #861111;
+}
+
+.short_introduction_line{
+    width: 1280px;
+    height: 0px;
+    top: 1360px;
+}
+
+#short_lyrics_pic{
+    position: absolute;
+    filter: drop-shadow(-10px 10px 5px #BDBDBD);
+    left: 714.18px;
+    height: 600px;
+    top: 200px;
+}
+
+.explain_line_triangle{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    /*background-color: #848611;*/
+    /*border-radius: 50%;*/
+    border-left: 7px solid #861111;
+    border-right: 7px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    top: -5.5px;
+    left: -7px;
+}
