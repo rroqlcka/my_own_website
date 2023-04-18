@@ -3,6 +3,8 @@
     height: 70px;
     display: flex;
     flex-direction: row;
+    font-weight: 600;
+    /*font*/
 }
 
 .pageHeaderLongboard, .pageHeaderMiniboard, .pageHeaderFishboard,.pageHeaderShortboard{

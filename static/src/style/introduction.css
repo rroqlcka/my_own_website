@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+.life_quote *{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .life_quote p:first-of-type{
     line-height: 100px;
     letter-spacing: 0.3em;
@@ -88,7 +92,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    border: 1px solid;
+    border: 1.3px solid;
     top: 700px;
 }
 
@@ -97,6 +101,7 @@
 }
 
 .lyrics_line{
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     font-size: 20px;
     letter-spacing: 0.2em;
@@ -238,6 +243,7 @@
 /*Question guy comes up*/
 
 .Question{
+    font-family: 'Noto Sans KR', sans-serif;
     flex-direction: column;
     align-items: center;
 }
@@ -261,6 +267,7 @@
 }
 
 .Question_line{
+
     position: absolute;
     left: 1200px;
     top: 180px;

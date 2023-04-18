@@ -32,6 +32,7 @@
 
 
 #mainPage_poster_left_above_letter{
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: right;
     display: flex;
     flex-direction: column;

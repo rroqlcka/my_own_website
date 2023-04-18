@@ -24,8 +24,9 @@ body {
     text-rendering: optimizespeed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
+
 
 ol,
 ul {
@@ -34,7 +35,6 @@ ul {
 
 .pageHeader a {
     text-decoration: none;
-    /*display: block;*/
     color: black;
 }
 
