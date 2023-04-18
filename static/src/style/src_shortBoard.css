@@ -1,6 +1,6 @@
 .Short{
     border-color: #861111;
-    background-color: #F7F7F5;
+    background-color: #F7F5F5;
 }
 
 
@@ -115,4 +115,24 @@
     font-size: 18px;
     left: 324px;
     top: 312px;
+}
+
+#flying_surfer{
+    justify-content: center;
+}
+
+#flying_surfer img{
+    position: absolute;
+    height: 600px;
+    left: 1341.602px;
+    top: 200px;
+}
+
+#last_info_turning_guy{
+    position: absolute;
+    height: 200px;
+    border-radius: 20%;
+    filter: drop-shadow(-4px 4px 5px #BDBDBD);
+    left: 500px;
+    top: 300px;
 }
