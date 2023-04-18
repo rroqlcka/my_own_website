@@ -111,6 +111,17 @@
     line-height: 500%;
 }
 
+.types_navigate a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.types_navigate a:visited{
+    color: black;
+}
+
+
 
 
 

@@ -301,3 +301,13 @@
     font-weight: 600;
     left: 1110px;
 }
+
+.footer a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.footer a:visited{
+    color: black;
+}

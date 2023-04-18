@@ -12,6 +12,7 @@
     position: absolute;
     height: 500px;
     top: 250px;
+    filter: drop-shadow(-4px 4px 4px #BDBDBD);
 }
 
 #fish_board_nose_pic{
@@ -19,6 +20,13 @@
     position: absolute;
     height: 340px;
     top: 260px;
+}
+
+#fish_board_tail_pic{
+    filter: drop-shadow(-4px 4px 5px #BDBDBD);
+    position: absolute;
+    height: 340px;
+    top: 300px;
 }
 
 .fish_nosetail_wrap{
@@ -38,5 +46,18 @@
     background-color: #112386;
     transform: rotate(45deg);
     top: -3.5px;
+}
 
+#fish_measure_line{
+    left: 1330px;
+    top: 200px;
+    border-color: #A5AFBF;
+}
+
+#fish_measure_foot{
+    position: absolute;
+    color: #A5AFBF;
+    font-size: 18px;
+    left: 1330px;
+    top: 182px;
 }
